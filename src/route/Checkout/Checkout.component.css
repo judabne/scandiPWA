@@ -1,0 +1,78 @@
+.progressContainer{
+    display: flex;
+    padding-bottom: 1%;
+    text-align: center;
+    vertical-align: top;
+    background-color: #EEEEEE;
+    font-weight: bold;
+}
+
+.textContainer{
+    display: flex;
+    padding-bottom: 2%;
+    text-align: center;
+    vertical-align: top;
+    background-color: #EEEEEE;
+    font-weight: bold;
+}
+
+.sideLine{
+    height: 5px;
+    width: 33%;
+    background-color: #bbccdd;
+    margin: auto;
+}
+
+.midLine{
+    height: 5px;
+    width: 26%;
+    background-color: #bbccdd;
+    margin:auto;
+}
+
+.circleIndicator{
+    border-radius: 50%;
+    height: 3vw;
+    width: 3vw;
+    background-color: #bbccdd;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative
+}
+
+.centered{
+    /* margin: 0; */
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.darkBackground{
+    background-color: #d1490c;
+    color: white;
+}
+
+.ticked{
+    -ms-transform: scaleX(-1) rotate(-35deg); 
+    -webkit-transform: scaleX(-1) rotate(-35deg); 
+    transform: translate(-50%, -50%) scaleX(-1) rotate(-35deg) ;
+}
+
+.shipping{
+    position: absolute;
+    left: 35%;
+    transform: translate(-50%, 0)
+}
+
+.review{
+    position: absolute;
+    right: 35%;
+    transform: translate(50%, 0)
+}
+
+.fadedText{
+    color: #bbccdd
+}
