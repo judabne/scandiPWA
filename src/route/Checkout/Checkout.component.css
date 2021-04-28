@@ -21,8 +21,6 @@
     width: 33%;
     background-color: #bbccdd;
     margin: auto;
-    animation: fadeIn 2s;
-    -webkit-animation: fadeIn 2s;
 }
 
 .midLine{
@@ -30,8 +28,6 @@
     width: 26%;
     background-color: #bbccdd;
     margin:auto;
-    animation: fadeIn 2s;
-    -webkit-animation: fadeIn 2s;
 }
 
 .circleIndicator{
@@ -44,8 +40,6 @@
     align-items: center;
     text-align: center;
     position: relative;
-    animation: fadeIn 2s;
-    -webkit-animation: fadeIn 2s;
 }
 
 .centered{
@@ -59,9 +53,14 @@
 .darkBackground{
     background-color: #d1490c;
     color: white;
-    animation: fadeIn 2s;
-    -webkit-animation: fadeIn 2s;
+    animation-name: changeColor;
+    animation-duration: 1s;
 }
+
+@keyframes changeColor {
+    from {background-color: #bbccdd;}
+    to {background-color: #d1490c;}
+  }
 
 .ticked{
     -ms-transform: scaleX(-1) rotate(-35deg); 
