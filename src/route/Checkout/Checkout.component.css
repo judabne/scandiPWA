@@ -21,6 +21,8 @@
     width: 33%;
     background-color: #bbccdd;
     margin: auto;
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
 }
 
 .midLine{
@@ -28,6 +30,8 @@
     width: 26%;
     background-color: #bbccdd;
     margin:auto;
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
 }
 
 .circleIndicator{
@@ -39,7 +43,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative
+    position: relative;
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
 }
 
 .centered{
@@ -47,24 +53,26 @@
     position: absolute;
     margin-top: 50%;
     margin-left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
 
 .darkBackground{
     background-color: #d1490c;
     color: white;
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
 }
 
 .ticked{
     -ms-transform: scaleX(-1) rotate(-35deg); 
     -webkit-transform: scaleX(-1) rotate(-35deg); 
-    transform: translate(-50%, -50%) scaleX(-1) rotate(-35deg) ;
+    transform: translate(-50%, -50%) scaleX(-1) rotate(-35deg);
 }
 
 .shipping{
     position: absolute;
     left: 35%;
-    transform: translate(-50%, 0)
+    transform: translate(-50%, 0);
 }
 
 .review{
